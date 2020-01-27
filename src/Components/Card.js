@@ -3,7 +3,7 @@ import 'github-calendar/dist/github-calendar-responsive.css';
 import GitHubCalendar from 'github-calendar';
 
 function Card(props) {
-  GitHubCalendar('.calendar', 'WalterTheCodeGuy', {resposive: true})
+  GitHubCalendar('.calendar', 'Walter-Futch', {resposive: true})
   return (
     <div className='card'>
       <div className='head'>

@@ -11,7 +11,7 @@ class App extends React.Component {
 
   componentDidMount() {
     axios
-      .get('https://api.github.com/users/WalterTheCodeGuy')
+      .get('https://api.github.com/users/Walter-Futch')
       .then(res => {
         console.log(res.data);
         this.setState({
@@ -21,7 +21,7 @@ class App extends React.Component {
       .catch(err => console.log('Nothing', err));
 
     axios
-      .get('https://api.github.com/users/WalterTheCodeGuy/followers')
+      .get('https://api.github.com/users/Walter-Futch/followers')
       .then(res => {
         console.log(res.data);
         this.setState({
